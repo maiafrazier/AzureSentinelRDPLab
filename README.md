@@ -1,6 +1,6 @@
 <h1>Azure Sentinel Failed RDP Global Map</h1>
 
- ### [Video Demonstration]((https://www.loom.com/share/c3b71b9db65a4718b079e75bff005347))
+ ### [Video Demonstration]([https://www.loom.com/share/c3b71b9db65a4718b079e75bff005347])
 
 <h2>Description</h2>
 This project consists of creating a honeypot that uses a custom PowerShell script to extract metadata from Windows Event Viewer, which is then forwarded to an API to derive geolocation data. After configuring the Log Analytics Workspace in Azure to take in custom logs for geographic information, (latitude, longitude, state/province, and country) you can configure a Azure Sentinel (Microsoft Cloud’s SIEM) workbook to display global attack data (RDP brute force) on a world map according to physical location, and number of attacks.
